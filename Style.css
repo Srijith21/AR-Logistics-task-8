@@ -1,0 +1,78 @@
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url(./Assets/Fonts/Poppins/poppins-regular-webfont.woff) format("woff"),
+    url(./Assets/Fonts/Poppins/poppins-regular-webfont.woff2) format("woff2");
+  }
+@font-face {
+    font-family: "Poppins-Bold";
+    src: url(/Assets/Fonts/Poppins/poppins-bold-webfont.woff) format("woff"),
+    url(./Assets/Fonts/Poppins/poppins-bold-webfont.woff2) format("woff2");
+  }
+*{
+    font-family: Poppins-Regular;
+}
+a{
+    font-family: Poppins-Regular;
+    text-decoration: none;
+}
+p{
+    font-family: Poppins-Regular;
+    line-height: 1.5rem;
+    color: #bab6b6;
+}
+ul{
+    padding: 0;
+    margin: auto;
+}
+ul li{
+    list-style: none;
+}
+.wrapper {
+    width: 90%;
+    margin: auto;
+}
+
+/* <!-- ///////////////////////////////////////////////////////////////////#Header --> */
+#Header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #FBF8ED;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+}
+.wrapper.Header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.left-Header{
+    width: 20%;
+}
+.left-Header img{
+    display: block;
+    width: 20%;
+}
+.right-Header{
+    width: 60%;
+}
+.right-Header ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.right-Header ul li{
+    width: auto;
+}
+.right-Header ul li a{
+    font-size: 15px;
+    color:#080133 ;
+    font-weight: 600;
+}
+.right-Header ul li a:active{
+    color:#FF7A00 ;
+}
