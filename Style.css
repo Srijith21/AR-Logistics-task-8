@@ -165,12 +165,18 @@ ul li{
 }
 /* ------------------------------------------------------------------480px responsive-----Header-----*/
 @media all and (max-width: 480px){
+    #Header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
     .left-Header{
-        width: 20%;
+        width: 30%;
     }
     .left-Header img{
         display: block;
-        width: 30%;
+        width: 50%;
+        margin: auto;
     }
     .right-Header{
         display: none;
@@ -203,12 +209,18 @@ ul li{
 }
 /* ------------------------------------------------------------------360px responsive-----Header-----*/
 @media all and (max-width: 360px){
+    #Header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
     .left-Header{
-        width: 20%;
+        width: 30%;
     }
     .left-Header img{
         display: block;
         width: 50%;
+        margin: auto;
     }
     .right-Header{
         display: none;
@@ -230,8 +242,13 @@ ul li{
     .right-Header ul li a:active{
         color:#FF7A00 ;
     }
-    .sidebarbutton{
-        display: block;
+    .sidebar-button-div{
+        width: 25%;
+        display: flex;
+        justify-content: center;
+    }
+    #sidebar-button{
+        margin: 10px;
     }
 }
 
@@ -302,13 +319,599 @@ ul li{
     }
 }
 
+/* <!-- ///////////////////////////////////////////////////////////////////#Spotlight --> */
+#Spotlight{
+    /* background: #FBF8ED; */
+    background-image: url(./Assets/background\ -\ spotlight.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+    padding: 100px 0 0;
+}
+.wrapper.Spotlight{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.Spotlight-left{
+    width: 50%;
+}
+.Spotlight-left h1{
+    font-size: 55px;
+    width: 55%;
+    line-height: 5rem;
+}
+.Spotlight-left h1 span{
+    color: #FF7A00;
+}
+.Spotlight-left p{
+    width: 60%;
+    font-size: 15px;
+}
+.learn-more-button{
+    background: #FBD573;
+    padding: 20px 35px;
+    font-size: 13px;
+    color: #080133;
+    border: none;
+    border-radius: 50px;
+    font-weight: 700;
+}
+.Spotlight-right{
+    width: 50%;
+    position: relative;
+}
+.Spotlight-right-img{
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+.tower{
+    position: absolute;
+    left: -100px;
+    top: 70px;
+    display: block;
+    width: 50%;
+}
 
+/* ------------------------------------------------------------------1280px responsive-----Spotlight-----*/
+@media all and (max-width: 1280px){
 
+    .Spotlight-left{
+        width: 50%;
+    }
+    .Spotlight-left h1{
+        font-size: 55px;
+        width: 70%;
+        line-height: 5rem;
+    }
+    .Spotlight-left h1 span{
+        color: #FF7A00;
+    }
+    .Spotlight-left p{
+        width: 60%;
+        font-size: 15px;
+    }
+    .learn-more-button{
+        background: #FBD573;
+        padding: 20px 35px;
+        font-size: 13px;
+        color: #080133;
+        border: none;
+        border-radius: 50px;
+    }
+    .Spotlight-right{
+        width: 50%;
+        position: relative;
+    }
+    .Spotlight-right-img{
+        display: block;
+        width: 80%;
+        margin: auto;
+    }
+    .tower{
+        position: absolute;
+        left: -100px;
+        top: 70px;
+        display: block;
+        width: 45%;
+    }
+}
+/* ------------------------------------------------------------------980px responsive-----Spotlight-----*/
+@media all and (max-width: 980px){
+    .Spotlight-left{
+        width: 50%;
+    }
+    .Spotlight-left h1{
+        font-size: 45px;
+        width: 70%;
+        line-height: 4rem;
+        margin: 0 0;
+    }
+    .Spotlight-left h1 span{
+        color: #FF7A00;
+    }
+    .Spotlight-left p{
+        width: 70%;
+        font-size: 13px;
+    }
+    .learn-more-button{
+        background: #FBD573;
+        padding: 18px 35px;
+        font-size: 12px;
+        color: #080133;
+        border: none;
+        border-radius: 50px;
+    }
+    .Spotlight-right{
+        width: 50%;
+        position: relative;
+    }
+    .Spotlight-right-img{
+        display: block;
+        width: 80%;
+        margin: auto;
+    }
+    .tower{
+        position: absolute;
+        left: -20px;
+        top: 50px;
+        display: block;
+        width: 45%;
+    }
+}
+/* ------------------------------------------------------------------768px responsive-----Spotlight-----*/
+@media all and (max-width: 768px){
+    .Spotlight-left{
+        width: 50%;
+    }
+    .Spotlight-left h1{
+        font-size: 40px;
+        width: 80%;
+        line-height: 4rem;
+        margin: 0 0;
+    }
+    .Spotlight-left h1 span{
+        color: #FF7A00;
+    }
+    .Spotlight-left p{
+        width: 80%;
+        font-size: 11px;
+    }
+    .learn-more-button{
+        background: #FBD573;
+        padding: 13px 25px;
+        font-size: 10px;
+        color: #080133;
+        border: none;
+        border-radius: 50px;
+    }
+    .Spotlight-right{
+        width: 50%;
+        position: relative;
+    }
+    .Spotlight-right-img{
+        display: block;
+        width: 80%;
+        margin: auto;
+    }
+    .tower{
+        position: absolute;
+        left: -20px;
+        top: 30px;
+        display: block;
+        width: 45%;
+    }
+}
+/* ------------------------------------------------------------------640px responsive-----Spotlight-----*/
+@media all and (max-width: 640px){
+    #Spotlight{
+        padding: 40px 0;
+    }
+    .Spotlight-left{
+        width: 90%;
+        padding: 40px 0;
+        margin: auto;
+        text-align: center;
+    }
+    .Spotlight-left h1{
+        font-size: 40px;
+        line-height: 4rem;
+        margin: 0 0;
+        width: 100%;
+    }
+    .Spotlight-left h1 span{
+        color: #FF7A00;
+    }
+    .Spotlight-left p{
+        width: 100%;
+        font-size: 11px;
+    }
+    .learn-more-button{
+        background: #FBD573;
+        padding: 13px 25px;
+        font-size: 10px;
+        color: #080133;
+        border: none;
+        border-radius: 50px;
+    }
+    .Spotlight-right{
+        width: 90%;
+        margin: auto;
+        position: relative;
+    }
+    .Spotlight-right-img{
+        display: block;
+        width: 80%;
+        margin: auto;
+    }
+    .tower{
+        position: absolute;
+        left: -20px;
+        top: 50px;
+        display: block;
+        width: 45%;
+    }
+}
+/* ------------------------------------------------------------------480px responsive-----Spotlight-----*/
+@media all and (max-width: 480px){
+    #Spotlight{
+        padding: 20px 0;
+    }
+    .Spotlight-left{
+        width: 90%;
+        padding: 20px 0;
+        margin: auto;
+        text-align: center;
+    }
+    .Spotlight-left h1{
+        font-size: 30px;
+        line-height: 4rem;
+        margin:0;
+        width: 100%;
+    }
+    .Spotlight-left h1 span{
+        color: #FF7A00;
+    }
+    .Spotlight-left p{
+        width: 100%;
+        font-size: 11px;
+    }
+    .learn-more-button{
+        background: #FBD573;
+        padding: 13px 25px;
+        font-size: 10px;
+        color: #080133;
+        border: none;
+        border-radius: 50px;
+    }
+    .Spotlight-right{
+        width: 90%;
+        margin: auto;
+        position: relative;
+    }
+    .Spotlight-right-img{
+        display: block;
+        width: 80%;
+        margin: auto;
+    }
+    .tower{
+        position: absolute;
+        left: -20px;
+        top: 40px;
+        display: block;
+        width: 45%;
+    }
+}
+/* ------------------------------------------------------------------360px responsive-----Spotlight-----*/
+@media all and (max-width: 360px){
+    #Spotlight{
+        padding: 20px 0;
+    }
+    .Spotlight-left{
+        width: 90%;
+        padding: 20px 0;
+        margin: auto;
+        text-align: center;
+    }
+    .Spotlight-left h1{
+        font-size: 20px;
+        line-height: 2rem;
+        margin:0;
+        width: 100%;
+    }
+    .Spotlight-left h1 span{
+        color: #FF7A00;
+    }
+    .Spotlight-left p{
+        width: 100%;
+        font-size: 8px;
+    }
+    .learn-more-button{
+        background: #FBD573;
+        padding: 13px 25px;
+        font-size: 10px;
+        color: #080133;
+        border: none;
+        border-radius: 50px;
+    }
+    .Spotlight-right{
+        width: 90%;
+        margin: auto;
+        position: relative;
+    }
+    .Spotlight-right-img{
+        display: block;
+        width: 80%;
+        margin: auto;
+    }
+    .tower{
+        position: absolute;
+        left: -20px;
+        top: 25px;
+        display: block;
+        width: 45%;
+    }
+}
 
+/* <!-- ///////////////////////////////////////////////////////////////////#KnowMore --> */
 
+#About{
+} 
+.wrapper.About{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.About-left{
+    width: 50%;
+    background-image: url(./Assets/background\ -\ thoran.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -125px 6px;
+    padding: 50px 0;
+}
+.About-left-img{
+    width: 60%;
+    display: block;
+    margin: auto 10px auto auto;
+}
+.About-right{
+    width: 50%;
+    padding: 60px 0;
+}
+.small-head{
+    color: #FF7A00;
+    font-size: 15px;
+}
+.About-right h1{
+    font-size: 43px;
+    color: #080133;
+}
+.About-right h1 span{
+    color: #FF7A00;
+}
+.About-right p {
+    font-size: 15px;
+    width: 70%;
+    margin: 35px 0;
+}
+.About-right p span{
+    font-size: 15px;
+    color: #FF7A00;
+}
 
+/* ------------------------------------------------------------------1280px responsive-----Spotlight-----*/
+@media all and (max-width: 1280px){
+    .About-left{
+        width: 50%;
+        background-image: url(./Assets/background\ -\ thoran.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: -125px 6px;
+        padding: 50px 0;
+    }
+    .About-left-img{
+        width: 60%;
+        display: block;
+        margin: auto 10px auto auto;
+    }
+    .About-right{
+        width: 50%;
+        padding: 60px 0;
+    }
+    .small-head{
+        color: #FF7A00;
+        font-size: 15px;
+    }
+    .About-right h1{
+        font-size: 43px;
+        color: #080133;
+    }
+    .About-right h1 span{
+        color: #FF7A00;
+    }
+    .About-right p {
+        font-size: 14px;
+        width: 80%;
+        margin: 35px 0;
+    }
+    .About-right p span{
+        font-size: 15px;
+        color: #FF7A00;
+    }
+}
+/* ------------------------------------------------------------------768px responsive-----Spotlight-----*/
+@media all and (max-width: 768px){
+    #About{
+        padding: 50px 0;
+    }
+    .About-left{
+        width: 50%;
+        background-image: url(./Assets/background\ -\ thoran.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: -125px 6px;
+        padding: 40px 0;
+    }
+    .About-left-img{
+        width: 80%;
+        display: block;
+        margin: auto 10px auto auto;
+    }
+    .About-right{
+        width: 50%;
+        padding: 60px 0;
+    }
+    .small-head{
+        color: #FF7A00;
+        font-size: 13px;
+    }
+    .About-right h1{
+        font-size: 40px;
+        color: #080133;
+    }
+    .About-right h1 span{
+        color: #FF7A00;
+    }
+    .About-right p {
+        font-size: 11px;
+        width: 90%;
+        margin: 35px 0;
+    }
+    .About-right p span{
+        font-size: 11px;
+        color: #FF7A00;
+    }
+}
+/* ------------------------------------------------------------------640px responsive-----Spotlight-----*/
+@media all and (max-width: 640px){
+    .About-left{
+        width: 100%;
+        background-image: url(./Assets/background\ -\ thoran.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: -125px 6px;
+        padding: 40px 0;
+    }
+    .About-left-img{
+        width: 80%;
+        display: block;
+        margin: auto 10px auto auto;
+    }
+    .About-right{
+        width: 100%;
+        padding: 60px 0;
+        text-align: center;
+    }
+    .small-head{
+        color: #FF7A00;
+        font-size: 13px;
+    }
+    .About-right h1{
+        font-size: 40px;
+        color: #080133;
+    }
+    .About-right h1 span{
+        color: #FF7A00;
+    }
+    .About-right p {
+        font-size: 11px;
+        width: 90%;
+        margin: 35px auto;
+    }
+    .About-right p span{
+        font-size: 11px;
+        color: #FF7A00;
+    }
+}
+/* ------------------------------------------------------------------480px responsive-----Spotlight-----*/
+@media all and (max-width: 480px){
+    .About-left{
+        width: 100%;
+        background-image: url(./Assets/background\ -\ thoran.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: -125px 6px;
+        padding: 30px 0;
+    }
+    .About-left-img{
+        width: 60%;
+        display: block;
+        margin: auto;
+    }
+    .About-right{
+        width: 100%;
+        padding: 15px 0;
+        text-align: center;
+    }
+    .small-head{
+        color: #FF7A00;
+        font-size:11px;
+    }
+    .About-right h1{
+        font-size: 33px;
+        color: #080133;
+    }
+    .About-right h1 span{
+        color: #FF7A00;
+    }
+    .About-right p {
+        font-size: 9px;
+        width: 90%;
+        margin: 28px auto;
+    }
+    .About-right p span{
+        font-size: 9px;
+        color: #FF7A00;
+    }
+}
+/* ------------------------------------------------------------------360px responsive-----Spotlight-----*/
+@media all and (max-width: 360px){
+    .About-left{
+        width: 100%;
+        background-image: url(./Assets/background\ -\ thoran.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: -125px 6px;
+        padding: 30px 0;
+    }
+    .About-left-img{
+        width: 60%;
+        display: block;
+        margin: auto;
+    }
+    .About-right{
+        width: 100%;
+        padding: 15px 0;
+        text-align: center;
+    }
+    .small-head{
+        color: #FF7A00;
+        font-size:11px;
+    }
+    .About-right h1{
+        font-size: 33px;
+        color: #080133;
+    }
+    .About-right h1 span{
+        color: #FF7A00;
+    }
+    .About-right p {
+        font-size: 9px;
+        width: 100%;
+        margin: 28px auto;
+    }
+    .About-right p span{
+        font-size: 9px;
+        color: #FF7A00;
+    }
+}
 
-
-
-
-
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+#Service{
+    content: '';
+    width: 100%;
+    height: 800px;
+}
