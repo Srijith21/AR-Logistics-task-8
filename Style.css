@@ -1325,3 +1325,315 @@ ul li{
     padding: 50px 0;
 }
 }
+
+/* <!-- ///////////////////////////////////////////////////////////////////#Overview --> */
+
+#Overview{
+    padding: 50px 0;
+}
+.wrapper.Overview{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.Overview-left{
+    width: 40%;
+    padding: 70px 70px;
+}
+.Overview-left h1{
+    font-size: 42px;
+    width: 100%;
+    line-height: 4rem;
+}
+.Overview-left h1 span{
+    color: #FF7A00;
+}
+.Overview-left p{
+    width: 100%;
+    font-size: 15px;
+}
+.Overview-right{
+    width: 48%;
+    background-image: url(./Assets/background\ -\ thoran.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 120px 6px;
+    padding: 50px 0;
+}
+.Overview-right img{
+    width: 75%;
+    display: block;
+    margin: auto;
+}
+
+/* ------------------------------------------------------------------980px responsive-----Overview-----*/
+@media all and (max-width: 980px){
+#Overview{
+    padding: 50px 0;
+}
+.wrapper.Overview{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.Overview-left{
+    width: 45%;
+    padding: 50px 30px;
+}
+.Overview-left h1{
+    font-size: 38px;
+    width: 100%;
+    line-height: 4rem;
+}
+.Overview-left h1 span{
+    color: #FF7A00;
+}
+.Overview-left p{
+    width: 100%;
+    font-size: 12px;
+}
+.Overview-right{
+    width: 48%;
+    background-image: url(./Assets/background\ -\ thoran.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 90px 6px;
+    padding: 50px 0;
+}
+.Overview-right img{
+    width: 75%;
+    display: block;
+    margin: auto;
+}
+
+}
+/* ------------------------------------------------------------------768px responsive-----Overview-----*/
+@media all and (max-width: 768px){
+#Overview{
+    padding: 50px 0;
+}
+.wrapper.Overview{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.Overview-left{
+    width: 45%;
+    padding: 50px 30px;
+}
+.Overview-left h1{
+    font-size: 28px;
+    width: 100%;
+    line-height: 3rem;
+}
+.Overview-left h1 span{
+    color: #FF7A00;
+}
+.Overview-left p{
+    width: 100%;
+    font-size: 10px;
+}
+.Overview-right{
+    width: 45%;
+    background-image: url(./Assets/background\ -\ thoran.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 75px 6px;
+    padding: 50px 0;
+    margin: auto;
+}
+.Overview-right img{
+    width: 70%;
+    display: block;
+    margin: auto;
+}
+}
+/* ------------------------------------------------------------------640px responsive-----Overview-----*/
+@media all and (max-width: 640px){
+#Overview{
+    padding: 50px 0;
+}
+.wrapper.Overview{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.Overview-left{
+    width: 75%;
+    padding: 50px 30px;
+    margin: auto;
+}
+.Overview-left h1{
+    font-size: 28px;
+    width: 100%;
+    line-height: 3rem;
+}
+.Overview-left h1 span{
+    color: #FF7A00;
+}
+.Overview-left p{
+    width: 100%;
+    font-size: 10px;
+}
+.Overview-right{
+    width: 100%;
+    background-image: url(./Assets/background\ -\ thoran.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 180px 6px;
+    padding: 50px 0;
+    margin: auto;
+}
+.Overview-right img{
+    width: 80%;
+    display: block;
+    margin: auto ;
+}
+}
+/* ------------------------------------------------------------------480px responsive-----Overview-----*/
+@media all and (max-width: 480px){
+#Overview{
+    padding: 50px 0;
+}
+.wrapper.Overview{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.Overview-left{
+    width: 85%;
+    padding: 50px 30px;
+    margin: auto;
+}
+.Overview-left h1{
+    font-size: 33px;
+    width: 100%;
+    line-height: 3rem;
+}
+.Overview-left h1 span{
+    color: #FF7A00;
+}
+.Overview-left p{
+    width: 100%;
+    font-size: 10px;
+}
+.Overview-right{
+    width: 100%;
+    background-image: url(./Assets/background\ -\ thoran.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 100px 6px;
+    padding: 50px 0;
+    margin: auto;
+}
+.Overview-right img{
+    width: 80%;
+    display: block;
+    margin: auto ;
+}
+}
+/* ------------------------------------------------------------------360px responsive-----Overview-----*/
+@media all and (max-width: 360px){
+#Overview{
+    padding: 50px 0;
+}
+.wrapper.Overview{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.Overview-left{
+    width: 85%;
+    padding: 30px 20px;
+    margin: auto;
+}
+.Overview-left h1{
+    font-size: 25px;
+    width: 100%;
+    line-height: 3rem;
+}
+.Overview-left h1 span{
+    color: #FF7A00;
+}
+.Overview-left p{
+    width: 100%;
+    font-size: 8px;
+}
+.Overview-right{
+    width: 100%;
+    background-image: url(./Assets/background\ -\ thoran.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 60px 6px;
+    padding: 50px 0;
+    margin: auto;
+}
+.Overview-right img{
+    width: 80%;
+    display: block;
+    margin: auto ;
+}
+}
+/* ------------------------------------------------------------------320px responsive-----Overview-----*/
+@media all and (max-width: 320px){
+#Overview{
+    padding: 50px 0;
+}
+.wrapper.Overview{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.Overview-left{
+    width: 85%;
+    padding: 30px 20px;
+    margin: auto;
+}
+.Overview-left h1{
+    font-size: 22px;
+    width: 100%;
+    line-height: 3rem;
+}
+.Overview-left h1 span{
+    color: #FF7A00;
+}
+.Overview-left p{
+    width: 100%;
+    font-size: 7px;
+}
+.Overview-right{
+    width: 100%;
+    background-image: url(./Assets/background\ -\ thoran.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 60px 6px;
+    padding: 50px 0;
+    margin: auto;
+}
+.Overview-right img{
+    width: 85%;
+    display: block;
+    margin: auto ;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
