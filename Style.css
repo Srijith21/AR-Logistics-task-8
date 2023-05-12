@@ -1723,8 +1723,602 @@ ul li{
 }
 }
 
+    /* <!-- ///////////////////////////////////////////////////////////////////#Testimonial --> */
 
+#Testimonial{
+    margin: 100px auto;
+    background: #fbfaf9;
+}
+.wrapper.Testimonial{
+    width: 100%;
+}
+.Testimonial-top{
+    text-align: center;
+    margin-bottom: 50px;
+    padding: 50px 10px 20px;
+}
+.Testimonial-top h1{
+    font-size: 41px;
+}
+.Testimonial-top h1 span{
+    color: #FF7A00;
+}
+.Testimonial-bottom {
+    background-image: url(./Assets/background\ -\ thoran.svg);
+    background-size: 600px;
+    background-repeat: no-repeat;
+    background-position: -110px 10px;
+    padding: 175px 80px;
+}
+.Testimonial-bottom ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Testimonial-bottom ul li{
+    width: 30%;
+    position: relative;
+    padding: 80px 20px 20px ;
+}
+.Testimonial-bottom ul li:nth-child(2){
+    border: #fff 2px solid;
+    border-radius: 50px;
+    background: #fff;
+    box-shadow: 4px 5px 5px #efeded;
+}
+.Testimonial-bottom ul li p{
+    font-size: 15px;
+}
+.person-img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    position: absolute;
+    top: -30px;
+    left: 25px;
+}
+.Testimonial-li-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Testimonial-li-bottom-left h5{
+    font-size: 20px;
+    margin: 0;
+}
+.Testimonial-li-bottom-left p{
+    font-size: 12px;
+}
+.Testimonial-li-bottom-right img{
+    width: 20px;
+    height: 30px;
+    margin: auto 3px;
+}
 
+/* ------------------------------------------------------------------1280px responsive-----Testimonial-----*/
+@media all and (max-width: 1280px){
+    #Testimonial{
+        margin: 100px auto;
+        background: #fbfaf9;
+    }
+    .wrapper.Testimonial{
+        width: 100%;
+    }
+    .Testimonial-top{
+        text-align: center;
+        margin-bottom: 50px;
+        padding: 50px 10px 20px;
+    }
+    .Testimonial-top h1{
+        font-size: 41px;
+    }
+    .Testimonial-top h1 span{
+        color: #FF7A00;
+    }
+    .Testimonial-bottom {
+        background-image: url(./Assets/background\ -\ thoran.svg);
+        background-size: 600px;
+        background-repeat: no-repeat;
+        background-position: -110px 10px;
+        padding: 175px 80px;
+    }
+    .Testimonial-bottom ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .Testimonial-bottom ul li{
+        width: 30%;
+        position: relative;
+        padding: 80px 20px 20px ;
+    }
+    .Testimonial-bottom ul li:nth-child(2){
+        border: #fff 2px solid;
+        border-radius: 50px;
+        background: #fff;
+        box-shadow: 4px 5px 5px #efeded;
+    }
+    .Testimonial-bottom ul li p{
+        font-size: 12px;
+    }
+    .person-img{
+        width: 80px;
+        height: 80px;
+        border-radius: 50px;
+        position: absolute;
+        top: -30px;
+        left: 25px;
+    }
+    .Testimonial-li-bottom{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .Testimonial-li-bottom-left h5{
+        font-size: 16px;
+        margin: 5px 0;
+    }
+    .Testimonial-li-bottom-left p{
+        font-size: 9px;
+    }
+    .Testimonial-li-bottom-right img{
+        width: 20px;
+        height: 30px;
+        margin: auto 3px;
+    }
+}
+/* ------------------------------------------------------------------980px responsive-----Testimonial-----*/
+@media all and (max-width: 980px){
+    #Testimonial{
+        margin: 50px auto;
+        background: #fbfaf9;
+    }
+    .wrapper.Testimonial{
+        width: 100%;
+    }
+    .Testimonial-top{
+        text-align: center;
+        margin-bottom: 20px;
+        padding: 30px 10px 20px;
+    }
+    .Testimonial-top h1{
+        font-size: 36px;
+    }
+    .Testimonial-top h1 span{
+        color: #FF7A00;
+    }
+    .Testimonial-bottom {
+        background-image: url(./Assets/background\ -\ thoran.svg);
+        background-size: 400px;
+        background-repeat: no-repeat;
+        background-position: -60px 0px;
+        padding: 80px 40px;
+    }
+    .Testimonial-bottom ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        margin: auto;
+    }
+    .Testimonial-bottom ul li{
+        width: 30%;
+        position: relative;
+        padding: 50px 20px 20px ;
+    }
+    .Testimonial-bottom ul li:nth-child(2){
+        border: #fff 2px solid;
+        border-radius: 50px;
+        background: #fff;
+        box-shadow: 4px 5px 5px #efeded;
+    }
+    .Testimonial-bottom ul li p{
+        font-size: 9px;
+    }
+    .person-img{
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        position: absolute;
+        top: -30px;
+        left: 25px;
+    }
+    .Testimonial-li-bottom{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .Testimonial-li-bottom-left h5{
+        font-size: 12px;
+        margin: 3px 0;
+    }
+    .Testimonial-li-bottom-left p{
+        font-size: 7px;
+    }
+    .Testimonial-li-bottom-right img{
+        width: 15px;
+        height: 20px;
+        margin: auto 3px;
+    }
+}
+/* ------------------------------------------------------------------768px responsive-----Testimonial-----*/
+@media all and (max-width: 768px){
+    #Testimonial{
+        margin: 50px auto;
+        background: #fbfaf9;
+    }
+    .wrapper.Testimonial{
+        width: 100%;
+    }
+    .Testimonial-top{
+        text-align: center;
+        margin-bottom: 20px;
+        padding: 30px 10px 20px;
+    }
+    .Testimonial-top h1{
+        font-size: 36px;
+    }
+    .Testimonial-top h1 span{
+        color: #FF7A00;
+    }
+    .Testimonial-bottom {
+        background-image: url(./Assets/background\ -\ thoran.svg);
+        background-size: 400px;
+        background-repeat: no-repeat;
+        background-position: -60px 0px;
+        padding: 80px 40px;
+    }
+    .Testimonial-bottom ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        margin: auto;
+    }
+    .Testimonial-bottom ul li{
+        width: 30%;
+        position: relative;
+        padding: 50px 20px 20px ;
+    }
+    .Testimonial-bottom ul li:nth-child(2){
+        border: #fff 2px solid;
+        border-radius: 50px;
+        background: #fff;
+        box-shadow: 4px 5px 5px #efeded;
+    }
+    .Testimonial-bottom ul li p{
+        font-size: 7px;
+    }
+    .person-img{
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        position: absolute;
+        top: -20px;
+        left: 25px;
+    }
+    .Testimonial-li-bottom{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .Testimonial-li-bottom-left h5{
+        font-size: 9px;
+        margin: 3px 0;
+    }
+    .Testimonial-li-bottom-left p{
+        font-size: 5px;
+    }
+    .Testimonial-li-bottom-right img{
+        width: 10px;
+        height: 10px;
+        margin: auto 3px;
+    }
+}
+/* ------------------------------------------------------------------640px responsive-----Testimonial-----*/
+@media all and (max-width: 640px){
+    #Testimonial{
+        margin: 50px auto;
+        background: #fbfaf9;
+    }
+    .wrapper.Testimonial{
+        width: 100%;
+    }
+    .Testimonial-top{
+        text-align: center;
+        margin-bottom: 20px;
+        padding: 30px 10px 20px;
+    }
+    .Testimonial-top h1{
+        font-size: 32px;
+    }
+    .Testimonial-top h1 span{
+        color: #FF7A00;
+    }
+    .Testimonial-bottom {
+        background-image: url(./Assets/background\ -\ thoran.svg);
+        background-size: 400px;
+        background-repeat: no-repeat;
+        background-position: -60px 0px;
+        padding: 80px 40px;
+    }
+    .Testimonial-bottom ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: auto;
+    }
+    .Testimonial-bottom ul li{
+        width: 80%;
+        margin: 25px auto;
+        position: relative;
+        padding: 50px 20px 20px ;
+    }
+    .Testimonial-bottom ul li:nth-child(2){
+        border: #fff 2px solid;
+        border-radius: 50px;
+        background: #fff;
+        box-shadow: 4px 5px 5px #efeded;
+    }
+    .Testimonial-bottom ul li p{
+        font-size: 13px;
+    }
+    .person-img{
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        position: absolute;
+        top: -20px;
+        left: 25px;
+    }
+    .Testimonial-li-bottom{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .Testimonial-li-bottom-left h5{
+        font-size: 13px;
+        margin: 3px 0;
+    }
+    .Testimonial-li-bottom-left p{
+        font-size: 10px;
+    }
+    .Testimonial-li-bottom-right img{
+        width: 20px;
+        height: 20px;
+        margin: auto 3px;
+    }
+}
+/* ------------------------------------------------------------------480px responsive-----Testimonial-----*/
+@media all and (max-width: 480px){
+    #Testimonial{
+        margin: 50px auto;
+        background: #fbfaf9;
+    }
+    .wrapper.Testimonial{
+        width: 100%;
+    }
+    .Testimonial-top{
+        text-align: center;
+        margin-bottom: 20px;
+        padding: 30px 10px 20px;
+    }
+    .Testimonial-top h1{
+        font-size: 27px;
+    }
+    .Testimonial-top h1 span{
+        color: #FF7A00;
+    }
+    .Testimonial-bottom {
+        background-image: url(./Assets/background\ -\ thoran.svg);
+        background-size: 400px;
+        background-repeat: no-repeat;
+        background-position: -60px 0px;
+        padding: 80px 40px;
+    }
+    .Testimonial-bottom ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: auto;
+    }
+    .Testimonial-bottom ul li{
+        width: 80%;
+        margin: 25px auto;
+        position: relative;
+        padding: 50px 20px 20px ;
+    }
+    .Testimonial-bottom ul li:nth-child(2){
+        border: #fff 2px solid;
+        border-radius: 50px;
+        background: #fff;
+        box-shadow: 4px 5px 5px #efeded;
+    }
+    .Testimonial-bottom ul li p{
+        font-size: 13px;
+    }
+    .person-img{
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        position: absolute;
+        top: -20px;
+        left: 25px;
+    }
+    .Testimonial-li-bottom{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .Testimonial-li-bottom-left h5{
+        font-size: 13px;
+        margin: 3px 0;
+    }
+    .Testimonial-li-bottom-left p{
+        font-size: 10px;
+    }
+    .Testimonial-li-bottom-right img{
+        width: 20px;
+        height: 20px;
+        margin: auto 3px;
+    }
+}
+/* ------------------------------------------------------------------360px responsive-----Testimonial-----*/
+@media all and (max-width: 360px){
+    #Testimonial{
+        margin: 50px auto;
+        background: #fbfaf9;
+    }
+    .wrapper.Testimonial{
+        width: 100%;
+    }
+    .Testimonial-top{
+        text-align: center;
+        margin-bottom: 20px;
+        padding: 30px 10px 20px;
+    }
+    .Testimonial-top h1{
+        font-size: 22px;
+    }
+    .Testimonial-top h1 span{
+        color: #FF7A00;
+    }
+    .Testimonial-bottom {
+        background-image: url(./Assets/background\ -\ thoran.svg);
+        background-size: 400px;
+        background-repeat: no-repeat;
+        background-position: -60px 0px;
+        padding: 80px 40px;
+    }
+    .Testimonial-bottom ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: auto;
+    }
+    .Testimonial-bottom ul li{
+        width: 80%;
+        margin: 25px auto;
+        position: relative;
+        padding: 30px 10px  ;
+    }
+    .Testimonial-bottom ul li:nth-child(2){
+        border: #fff 2px solid;
+        border-radius: 50px;
+        background: #fff;
+        box-shadow: 4px 5px 5px #efeded;
+    }
+    .Testimonial-bottom ul li p{
+        font-size: 9px;
+    }
+    .person-img{
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        position: absolute;
+        top: -20px;
+        left: 25px;
+    }
+    .Testimonial-li-bottom{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .Testimonial-li-bottom-left h5{
+        font-size: 10px;
+        margin: 3px 0;
+    }
+    .Testimonial-li-bottom-left p{
+        font-size: 8px;
+    }
+    .Testimonial-li-bottom-right img{
+        width: 10px;
+        height: 10px;
+        margin: auto 3px;
+    }
+}
+/* ------------------------------------------------------------------320px responsive-----Testimonial-----*/
+@media all and (max-width: 320px){
+    #Testimonial{
+        margin: 50px auto;
+        background: #fbfaf9;
+    }
+    .wrapper.Testimonial{
+        width: 100%;
+    }
+    .Testimonial-top{
+        text-align: center;
+        margin-bottom: 20px;
+        padding: 30px 10px 20px;
+    }
+    .Testimonial-top h1{
+        font-size: 22px;
+    }
+    .Testimonial-top h1 span{
+        color: #FF7A00;
+    }
+    .Testimonial-bottom {
+        background-image: url(./Assets/background\ -\ thoran.svg);
+        background-size: 400px;
+        background-repeat: no-repeat;
+        background-position: -60px 0px;
+        padding: 60px 20px;
+    }
+    .Testimonial-bottom ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: auto;
+    }
+    .Testimonial-bottom ul li{
+        width: 90%;
+        margin: 25px auto;
+        position: relative;
+        padding: 30px 10px  ;
+    }
+    .Testimonial-bottom ul li:nth-child(2){
+        border: #fff 2px solid;
+        border-radius: 50px;
+        background: #fff;
+        box-shadow: 4px 5px 5px #efeded;
+    }
+    .Testimonial-bottom ul li p{
+        font-size: 9px;
+    }
+    .person-img{
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        position: absolute;
+        top: -20px;
+        left: 25px;
+    }
+    .Testimonial-li-bottom{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .Testimonial-li-bottom-left h5{
+        font-size: 10px;
+        margin: 3px 0;
+    }
+    .Testimonial-li-bottom-left p{
+        font-size: 8px;
+    }
+    .Testimonial-li-bottom-right img{
+        width: 10px;
+        height: 10px;
+        margin: auto 3px;
+    }
+}
 
 
 
